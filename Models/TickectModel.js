@@ -1,6 +1,6 @@
 import sequelize from 'sequelize';
 import db from '../db';
-import { UserModel } from './UserModerl';
+import { UserModel } from './UserModel';
 import { StoreModel } from './SotoreModel';
 
 export const TickectModel = db.define('tickets',{
